@@ -15,20 +15,21 @@ h1 {
 img {
 	float: left;
 	margin: 1em;
+	width:200px;
+	padding:????;
 }
-
-ul{
+nav {
+	
 	list-style:none;
-}
-.deco {
+	position:relative;
 	width:960px;
-	padding: 20px;
+	font-size: 20px;
 	font-family: sans-serif;
 	background-color: transparent;
 	border-radius: 10px;
 	display: inline;
-	float:left;
-	margin-left:2px
+	float:right;
+	
 }
 article {
 	background-color: #ffffff;
