@@ -16,12 +16,19 @@ img {
 	float: left;
 	margin: 1em;
 }
+
+ul{
+	list-style:none;
+}
 .deco {
-	margin: 10px;
+	width:960px;
 	padding: 20px;
+	font-family: sans-serif;
 	background-color: transparent;
 	border-radius: 10px;
 	display: inline;
+	float:left;
+	margin-left:2px
 }
 article {
 	background-color: #ffffff;
