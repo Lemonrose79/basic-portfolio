@@ -1,7 +1,7 @@
 .topSection {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	width: 960px;
 	margin: 0 auto;
 }
@@ -12,14 +12,7 @@ h1 {
 	height: 20px;
 	padding: 20px 0 70px 0;
 }
-img {
-	float: left;
-	margin: 1em;
-	width:200px;
-	padding:????;
-}
 nav {
-	
 	list-style:none;
 	position:relative;
 	width:960px;
@@ -27,11 +20,19 @@ nav {
 	font-family: sans-serif;
 	background-color: transparent;
 	border-radius: 10px;
-	display: inline;
-	float:right;
-	
+	display: flex;
+	justify-content:space-between;
+	flex-direction: row;
+}
+img {
+	display:flex;
+	margin: 1em;
+	width:200px;
+	padding:????;
 }
 article {
+	display:flex;
+	flex-direction:row;
 	background-color: #ffffff;
 	color: #777777;
 	padding: 0;
