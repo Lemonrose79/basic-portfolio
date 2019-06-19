@@ -12,38 +12,25 @@ h1 {
 	height: 20px;
 	padding: 20px 0 70px 0;
 }
-
-h2 {background-color:transparent;
-	inlineblock
-	border-bottom-style:solid;
-	
-}
 img {
 	float: left;
 	margin: 1em;
-	width: 200px;
-	padding: ????;
+	width:200px;
+	padding:????;
 }
 nav {
-	position: relative;
-	width: 960px;
+	
+	list-style:none;
+	position:relative;
+	width:960px;
 	font-size: 20px;
 	font-family: sans-serif;
 	background-color: transparent;
 	border-radius: 10px;
 	display: inline;
-	float: right;
-	color: #777777;
+	float:right;
+	
 }
-li {list-style: none
-	height: 10px;
-   padding: 10px;
-   word-wrap: normal;
-   display: inline-block;
-   line-height: 1px;
-   color:#1e5799;
-   border-right: 1px solid #000;
-   }
 article {
 	background-color: #ffffff;
 	color: #777777;
@@ -53,8 +40,6 @@ article {
 	font-size: 18px;
 	line-height: 150%;
 	color: #333;
-	display:inline-block;
-
 }
 header {
 	background: #ffffff;
@@ -62,8 +47,4 @@ header {
 	border-bottom-style: solid;
 	border-color: #cccccc;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	display: inline-block;
-}
-
-h2 {display: inline-block
 }
